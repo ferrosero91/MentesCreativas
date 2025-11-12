@@ -82,7 +82,7 @@ describe("SolarSystem Component", () => {
       </MemoryRouter>
     );
 
-    const startButton = screen.getByRole("button", { name: /EXPLORAR  ESPACIO/i });
+    const startButton = screen.getByRole("button", { name: /EXPLORAR EL ESPACIO/i });
     fireEvent.click(startButton);
 
     const pauseButton = screen.getByRole("button", { name: /pausa/i });
