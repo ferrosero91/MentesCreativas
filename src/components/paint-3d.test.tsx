@@ -42,7 +42,7 @@ beforeAll(() => {
 })
 
 describe("Pintura3D", () => {
-  test("render inicial muestra título y botón", ) => {
+  test("render inicial muestra título y botón", () => {
     render(<MemoryRouter><Pintura3D /></MemoryRouter>)
     expect(screen.getByText("¡Pintura 3D Mágica!")).toBeInTheDocument()
     expect(screen.getByRole("button", { name: /COMENZAR A PINTAR/i })).toBeInTheDocument()
