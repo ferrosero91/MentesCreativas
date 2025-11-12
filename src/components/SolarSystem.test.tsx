@@ -226,7 +226,7 @@ describe("SolarSystem Component", () => {
     const orbitsButton = screen.getByRole("button", { name: /ocultar órbitas/i });
     fireEvent.click(orbitsButton);
 
-    const showOrbitsButton = screen.getByRole("button", { name: /mostrar órbitas/i });
+    const showOrbitsButton = screen.getByRole("button", { name: /mostra órbitas/i });
     expect(showOrbitsButton).toBeInTheDocument();
   });
 

@@ -64,7 +64,7 @@ describe("Pintura3D", () => {
     render(<MemoryRouter><Pintura3D /></MemoryRouter>)
     fireEvent.click(screen.getByRole("button", { name: /COMENZAR A PINTAR/i }))
     await waitFor(() => {
-      const saveBtn = screen.getByRole("button", { name: /💾 Guardar Dibujo/i })
+      const saveBtn = screen.getByRole("button", { name: /💾 Guarda Dibujo/i })
       expect(saveBtn).toBeInTheDocument()
     })
     // No podemos probar toDataURL sin canvas package, así que solo verificamos que el botón existe
