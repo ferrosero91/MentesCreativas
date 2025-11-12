@@ -15,7 +15,7 @@ beforeAll(() => {
 })
 
 describe("Geometry3D", () => {
-  test("render inicial muestra título y botón, () => {
+  test("render inicial muestra título y botón", () => {
     render(
       <MemoryRouter>
         <Geometry3D />
