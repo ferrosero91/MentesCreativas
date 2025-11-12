@@ -21,7 +21,7 @@ describe("Geometry3D", () => {
         <Geometry3D />
       </MemoryRouter>
     )
-    expect(screen.getByText("¡Geometría 3D!")).toBeInTheDocument()
+    expect(screen.getByText("¡Geometría 3!")).toBeInTheDocument()
     expect(screen.getByRole("button", { name: /¡EMPEZAR! 🎮/i })).toBeInTheDocument()
   })
 
