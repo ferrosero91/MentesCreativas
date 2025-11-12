@@ -13,7 +13,7 @@ describe("Sidebar Component", () => {
 
   test("renderiza el título y subtítulo del logo", () => {
     setup();
-    expect(screen.getByText("Mente")).toBeInTheDocument();
+    expect(screen.getByText("Mentes")).toBeInTheDocument();
     expect(screen.getByText("Creativas")).toBeInTheDocument();
   });
 
